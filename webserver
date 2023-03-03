@@ -1,0 +1,12 @@
+NameVirtualHost *:80
+<VirtualtHost *:80>
+ServerName   www.my.com
+### put your Directory for file html
+
+DocumentRoot /var/www/html/my
+</VirtualHost>
+<Directory /var/www/html/my>
+##put your first html you need
+DirectoryIndex  index.html 
+</Directory>
+
